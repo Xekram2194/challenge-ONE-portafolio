@@ -1,0 +1,38 @@
+.skills{
+    .cards{
+        .contenedor-cards{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .items{
+
+                width: 15rem;
+                height: 15rem;
+                border: 0.6rem solid #e9ecef;
+                border-radius: 2rem;
+                overflow: hidden;
+                
+                .hobies{
+                    object-fit: cover;
+                }
+                // .img1{
+                //     background-image: url(../img/skills/php.png);
+                //     // background-repeat: none;
+                //     // background-size:cover;
+                //     width: 100%;
+                // }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    filter: grayscale(100%);
+                }
+                h3{
+                    display: none;
+                }
+
+            }
+        }
+    }
+}
