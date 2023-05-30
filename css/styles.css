@@ -311,4 +311,30 @@ a {
   display: none;
 }
 
+.formation {
+  background-color: #EAF2FD;
+}
+.formation .contenedor .formationContainer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.formation .contenedor .formationContainer .formationCards .cuadro {
+  width: 368px;
+  height: 286px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formation .contenedor .formationContainer .formationCards .cuadro img {
+  width: 60%;
+}
+.formation .contenedor .formationContainer .formationCards .talla {
+  font-size: 1.5rem;
+}
+.formation .contenedor .formationContainer .formationCards .talla-2 {
+  font-size: 1.9rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
