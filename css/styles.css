@@ -337,4 +337,30 @@ a {
   font-size: 1.9rem;
 }
 
+.experiencia .items {
+  padding-top: 0.7rem;
+}
+.experiencia .items .itemsExperiencia:nth-child(odd) {
+  display: flex;
+  justify-content: space-between;
+}
+.experiencia .items .itemsExperiencia:nth-child(odd) .itemBoton {
+  padding-left: 2rem;
+}
+.experiencia .items .itemsExperiencia:nth-child(even) {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.experiencia .items .itemsExperiencia:nth-child(even) .itemBoton {
+  padding-right: 2rem;
+}
+.experiencia .items .itemsExperiencia .itemBoton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,29 @@
+.experiencia{
+    .items{
+        padding-top: .7rem;
+        .itemsExperiencia{
+            &:nth-child(odd){
+                display: flex;
+                justify-content: space-between;
+                .itemBoton{
+                    padding-left: 2rem;
+                }
+            }
+            &:nth-child(even){
+                display: flex;
+                justify-content: space-between;
+                flex-direction:row-reverse;
+                .itemBoton{
+                    padding-right: 2rem;
+                }
+            }
+            .itemBoton{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                width: 100%;
+            }
+        }
+    }
+}
