@@ -27,8 +27,8 @@
     <nav class="header">
         <div class="container-header">
             <div class="name-header">
-                <img src="img/logo/Group.svg" alt="">
-                <h1>Marco Mendoza</h1>
+                <img class="logop" src="img/logo/Group.svg" alt="">
+                <h1 class="xx">Marco Mendoza</h1>
             </div>
             <div class="menu-item">
                 <ul class="menu">
@@ -177,8 +177,8 @@
                     <h3 class="titulo-n3">Encriptador de Texto</h3>
                     <span class="titulo-n3">Challenge Alura Codificador</span>
                     <div class="botones">
-                        <a href="">Repositorio</a>
-                        <a href="">Ver Demo</a>
+                        <a class="btns"  href="">Repositorio</a>
+                        <a class="active"  href="">Ver Demo</a>
                     </div>
                 </div>
             </div>
@@ -190,8 +190,8 @@
                     <h3 class="titulo-n3">Juego Creado con HTML y Javascript</h3>
                     <span class="titulo-n3">Challenge Oracle</span>
                     <div class="botones">
-                        <a href="">Repositorio</a>
-                        <a href="">Ver Demo</a>
+                        <a class="btns"  href="">Repositorio</a>
+                        <a class="active"  href="">Ver Demo</a>
                     </div>
                 </div>
             </div>
@@ -203,8 +203,8 @@
                     <h3 class="titulo-n3">Encriptador de Texto</h3>
                     <span class="titulo-n3">Challenge Oracle</span>
                     <div class="botones">
-                        <a href="">Repositorio</a>
-                        <a href="">Ver Demo</a>
+                        <a class="btns"  href="">Repositorio</a>
+                        <a class="active"  href="">Ver Demo</a>
                     </div>
                 </div>
             </div>
@@ -216,11 +216,52 @@
                     <h3 class="titulo-n3">Juego creado con HTML, CSS y Javascript</h3>
                     <span class="titulo-n3">Challenge Oracle</span>
                     <div class="botones">
-                        <a href="">Repositorio</a>
-                        <a href="">Ver Demo</a>
+                        <a class="btns"  href="">Repositorio</a>
+                        <a class="active"  href="">Ver Demo</a>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="contacto pt-10 pb-10 ">
+        <div class="contenedor">
+            <div>
+                <img src="img/contacto/phone.png" alt="">
+            </div>
+            <div>
+                <h2 class="titulo-n2">Contacto</h2>
+                <span class="titulo-n3">¿Quieres contactarme?</span>
+                <span class="titulo-n3">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</span>
+                <form action="">
+                    <div class="field">
+                        <input required type="text" name="nombre" id="nombre" class="nombre" placeholder="nombre">
+                        <label for="nombre" class="form_label" >Nombre</label>
+                    </div>
+                    
+                    <div class="field">
+                        <input required type="email" name="mail" id="mail" placeholder="email" class="nombre">
+                        <label for="nombre" class="form_label" >Email</label>
+                    </div>
+                    <div class="field">
+                        <input required type="text" name="asunto" id="asunto" placeholder="asunto" class="nombre">
+                        <label for="nombre" class="form_label" >Asunto</label>
+                    </div>
+                    <div class="field">
+                        <textarea required class="nombre" name="mensaje" id="mensaje" placeholder="Mensaje" cols="10" rows="3"></textarea>
+                        <label for="nombre" class="form_label" >Mensaje</label>
+                    </div>
+                    <div class="boton">
+                        <a href="" class="btn_enviar" >enviar mensaje</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer pt-2 pb-2">
+        <div>
+            <h3 class="titulo-n3 text-center">Desarrollado por Marco Mendoza</h3>
+            <span class="titulo-n3" >2023</span>
         </div>
     </section>
 
@@ -234,5 +275,6 @@
             backDelay: 1500
         })
     </script>
+    <script src="js/codigo.js"></script>
 </body>
 </html>
